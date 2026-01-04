@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Block2_Questions</title>
+  <title>All End-Blocks</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <style>
@@ -10,7 +10,6 @@
       font-family: Arial, sans-serif;
       margin: 10px;
       padding-bottom: 150px;
-      
     }
 
     /* ===== HEADER ===== */
@@ -24,7 +23,7 @@
       gap: 8px;
       justify-content: space-between;
       text-align: center;
-    
+      margin-bottom: 40px;
     }
 
     .name {
@@ -45,131 +44,103 @@
       flex-shrink: 0;
     }
 
-    /* ===== TITLES ===== */
+    /* ===== THE BOXES ===== */
+    .container-box1 {
+      border: 1px solid #2D2D2D;
+      border-radius: 12px;
+      margin: 20px 0;
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-bottom:80px;
+      
+    }
+    
+      .container-box2 {
+      border: 1px solid #2D2D2D;
+      border-radius: 15px;
+      margin: 20px 0;
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+      
+      
+    }
+
+    .box-head {
+      background-color: #2D2D2D;
+      padding: 15px;
+      text-align: center;
+      
+    }
+
+    /* This keeps HDSF and BBC headers large */
+    .box-head h1 {
+      margin: 0;
+      font-size: 28px !important; 
+    }
+
+    .content-padding {
+      padding: 15px;
+      text-align: left;
+      
+    }
+
+    /* ===== SUBJECT TITLES (Anatomy, etc.) ===== */
+    /* Reduced font-size here */
     h1 {
       background-color: #2D2D2D;
       border-radius: 5px;
-      padding: 8px 16px;
+      padding: 6px 12px; /* Slightly smaller padding */
       color: white;
       text-align: center;
       width: fit-content;
-      margin: 25px auto;
-      margin-bottom: 70px;
-    
-    }
-    
-    
-    
-    
-    
-    a {
-      
-      display: block;
-       color: #269FD8;
-    }
-    a:hover{
-      color:  #269F;
-    
+      margin: 20px 0; 
+      font-size: 23px; /* Adjusted size */
     }
 
+    .hdsf {
+      color: #F0CF6A;
+    }
+
+    .bbc {
+      color: #269FD8;
+    }
+
+    a {
+      display: block;
+      color: #269FD8;
+      text-decoration: none;
+    }
+
+  
+
     h2 {
-      margin-left: 15px;
+      margin-left: 5px;
       padding-bottom: 10px;
-      
+      font-size: 20px; /* Adjusted to balance with smaller h1 */
     }
 
     h2:hover {
-      color: #269FD8 ;
-      
+      color: #18709C;
     }
 
     hr {
-      margin: 25px 0;
+      margin: 20px 0;
     }
-    .com{
-      padding-bottom: 50px;
-      
-    }
-    
-    h5{
-      background-color: lightgrey;
-      width: 70px;
-      border-radius: 4px;
-      padding: 5px;
-      opacity:0;
-      margin-left: 230px;
-    }
-    
-    h5:hover{
-      opacity: 1;
-    }
-    .hover{
-      display:block;
-      text-align: center;
-    
-}
 
     @media (max-width: 600px) {
       h2 {
         margin-left: 8px;
-        font-size: 18px;
+        font-size: 16px;
       }
-
       h1 {
-        font-size: 20px;
+        font-size: 16px;
       }
-      
-      h1:hover .h5{
-        opacity:1;
-      }
-      
-
-
-      .head h4 {
-        width: 100%;
+      .box-head h1 {
+        font-size: 22px !important;
       }
     }
-    
-    
- .ter {
-  position: relative;
-  cursor: pointer;
-  color: white;
-}
-
-.box {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translateX(-50%);
-  
-  background-color: lightgrey;
-  color: #2D2D2D;
-  padding: 8px 10px;
-  border-radius: 6px;
-  font-size: 14px;
-  white-space: nowrap;
-  
-  transition: opacity 0.2s ease;
-  z-index: 10;
-}
-
-
-.ter:hover .box {
-  visibility: visible;
-  opacity: 1;
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
   </style>
 </head>
 
@@ -180,74 +151,69 @@
       Created by
       <a class="name" href="https://t.me/Shabaz_Rasheed">
         Shabaz Rasheed
-        
-        <svg width="20px" height="20px" viewBox="0 0 240 240" id="svg2" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><style>.st0{fill:url(#path2995-1-0_1_)}.st1{fill:#c8daea}.st2{fill:#a9c9dd}.st3{fill:url(#path2991_1_)}</style><linearGradient id="path2995-1-0_1_" gradientUnits="userSpaceOnUse" x1="-683.305" y1="534.845" x2="-693.305" y2="511.512" gradientTransform="matrix(6 0 0 -6 4255 3247)"><stop offset="0" stop-color="#37aee2"></stop><stop offset="1" stop-color="#1e96c8"></stop></linearGradient><path id="path2995-1-0" class="st0" d="M240 120c0 66.3-53.7 120-120 120S0 186.3 0 120 53.7 0 120 0s120 53.7 120 120z"></path><path id="path2993" class="st1" d="M98 175c-3.9 0-3.2-1.5-4.6-5.2L82 132.2 152.8 88l8.3 2.2-6.9 18.8L98 175z"></path><path id="path2989" class="st2" d="M98 175c3 0 4.3-1.4 6-3 2.6-2.5 36-35 36-35l-20.5-5-19 12-2.5 30v1z"></path><linearGradient id="path2991_1_" gradientUnits="userSpaceOnUse" x1="128.991" y1="118.245" x2="153.991" y2="78.245" gradientTransform="matrix(1 0 0 -1 0 242)"><stop offset="0" stop-color="#eff7fc"></stop><stop offset="1" stop-color="#ffffff"></stop></linearGradient><path id="path2991" class="st3" d="M100 144.4l48.4 35.7c5.5 3 9.5 1.5 10.9-5.1L179 82.2c2-8.1-3.1-11.7-8.4-9.3L55 117.5c-7.9 3.2-7.8 7.6-1.4 9.5l29.7 9.3L152 93c3.2-2 6.2-.9 3.8 1.3L100 144.4z"></path></g></svg>
-        
-        
+        <svg width="20px" height="20px" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+          <g>
+            <linearGradient id="path2995" gradientUnits="userSpaceOnUse" x1="-683.305" y1="534.845" x2="-693.305" y2="511.512" gradientTransform="matrix(6 0 0 -6 4255 3247)">
+              <stop offset="0" stop-color="#37aee2"></stop>
+              <stop offset="1" stop-color="#1e96c8"></stop>
+            </linearGradient>
+            <path fill="url(#path2995)" d="M240 120c0 66.3-53.7 120-120 120S0 186.3 0 120 53.7 0 120 0s120 53.7 120 120z"></path>
+            <path fill="#c8daea" d="M98 175c-3.9 0-3.2-1.5-4.6-5.2L82 132.2 152.8 88l8.3 2.2-6.9 18.8L98 175z"></path>
+            <path fill="#a9c9dd" d="M98 175c3 0 4.3-1.4 6-3 2.6-2.5 36-35 36-35l-20.5-5-19 12-2.5 30v1z"></path>
+            <path fill="#ffffff" d="M100 144.4l48.4 35.7c5.5 3 9.5 1.5 10.9-5.1L179 82.2c2-8.1-3.1-11.7-8.4-9.3L55 117.5c-7.9 3.2-7.8 7.6-1.4 9.5l29.7 9.3L152 93c3.2-2 6.2-.9 3.8 1.3L100 144.4z"></path>
+          </g>
+        </svg>
       </a>
     </h4>
-    <h4>Created on Jan 2, 2026</h4>
+    <h4>2025-2026</h4>
   </div>
 
-  <hr>
+  <div class="container-box1">
+    <div class="box-head">
+      <h1 class="hdsf" style="margin: auto;">HDSF</h1>
+    </div>
+    
+    <div class="content-padding">
+      <h1>Anatomy</h1>
+      <a href="https://shabazrasheed10-rgb.github.io/Axial-skeleton_SGL1/"><h2>Axial-skeleton_LG1</h2></a>
+    
+      <hr>
+      <h1>Microbiology</h1>
+      <a><h2>Nothing yet...</h2></a>
+     
+      <hr>
+      <h1>Physiology</h1>
+      <a><h2>Nothing yet...</h2></a>
+      
+      <hr>
+      <h1>Cell biology</h1>
+      <a href="https://shabazrasheed10-rgb.github.io/Protoplasm_SGL1/"><h2>Protoplasm_SGL1</h2></a>
+      
+         <hr>
+      <h1>Genetics</h1>
+      <a><h2>Nothing yet...</h2></a>
+      
+         <hr>
+      <h1>Molcular biology</h1>
+      <a><h2>Nothing yet...</h2></a>
+      
+    </div>
+  </div>
 
-   
-  
-  
 
-
- <h1>Anatomy</h1>
-
-  <a href="https://shabazrasheed10-rgb.github.io/Axial-skeleton_SGL1/"><h2>Axial skeleton_LG1</h2></a>
-
- 
-  <hr>
-
-  <h1>Physiology</h1>
-
-  <a href="https://shabazrasheed10-rgb.github.io/Kurdology_Exam/">
-    <h2>End-block + Other questions based on the summary</h2>
-  </a>
-
-
-  <hr>
-
-  <h1>Microbiology</h1>
-
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking_End-Block/"><h2>End-Block</h2></a>
-  
-   <a href="https://shabazrasheed10-rgb.github.io/Critical_thinking_Lec1-2-3/"><h2>Lec-1&2&3
-  
-  </h2>
-  </a>
-  
- 
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking--Lec01--20MCQs/"><h2>Lec-1</h2></a>
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking-lec1--25-flashcards/"><h2>Lec-1 Flashcards</h2></a>
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking-quiz-mode1/"><h2>Lec-2</h2></a>
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking_Lec2/"><h2>Lec-2</h2></a>
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking-quiz-mode/"><h2>Lec-3</h2></a>
-  <a href="https://shabazrasheed10-rgb.github.io/Critical-thinking_Lec4_Quiz/"><h2>Lec-4</h2></a>
-
-  <hr>
-
-  <h1>Cell biology</h1>
-  <a class="com" href="https://shabazrasheed10-rgb.github.io/Protoplasm_SGL1/"><h2>Protoplasm_SGL1</h2></a>
-
-  <hr>
-
-  <h1>Genetics</h1>
-  <a href="https://shabazrasheed10-rgb.github.io/PPD---Exam/">
-    <h2>End-Block + Other questions from all lectures</h2>
-  </a>
-  
-  <hr>
-  
-  <h1>Molcular biology</h1>
-   <a href="https://shabazrasheed10-rgb.github.io/End-Block-_2025-2026_Stage1-Block1/">
-    <h2>All End-Block of 2025-2026</h2>
-  </a>
+  <div class="container-box2">
+    <div class="box-head">
+      <h1 class="bbc" style="margin: auto;">BBC</h1>
+    </div>
+    
+    <div class="content-padding">
+      <h1>Biochemistry</h1>
+      <a><h2>Nothing yet...</h2></a>
+      <hr>
+      <h1>Biophysics</h1>
+      <a><h2>Nothing yet...</h2></a>
+    </div>
+  </div>
 
 </body>
 </html>
-
